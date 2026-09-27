@@ -9,15 +9,13 @@ This project implements a **structural health monitoring (SHM) pipeline** for br
 
 Note on Data: This repository does not include the sensor datasets used in this project due to confidentiality/privacy restrictions. File paths in the scripts are placeholders and should be updated to point to your own dataset with a matching schema (see column names referenced in each script).
 
----
-
 ## References
 
 This work is primarily based on the anomaly detection methodology proposed in:
 
 > Lei Wang et al., "Online diagnosis for bridge monitoring data via a machine learning-based anomaly detection method," *Engineering Structures*, vol. 284, 2023, p. 115894. https://doi.org/10.1016/j.engstruct.2023.115894
 
-The Kalman filter implementation additionally draws on the structural health monitoring framework described in Erazo et al. (2019).
+---
 
 ### Module: Sensor Signal Correction (Ensemble Learning)
 
