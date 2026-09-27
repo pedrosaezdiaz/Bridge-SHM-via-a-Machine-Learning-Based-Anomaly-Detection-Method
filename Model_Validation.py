@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 14 09:05:14 2025
-
-@author: psd6587
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Versión corregida del BridgeAnomalyLabeler
-"""
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
