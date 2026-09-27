@@ -1,19 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 28 13:00:06 2025
-
-@author: psd6587
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 25 10:30:14 2025
-
-@author: psd6587
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal, linalg
@@ -148,7 +132,7 @@ class StructuralHealthMonitoringKalman:
         self.B[4, 0] = 0.1  # efecto de T_norte en velocidad theta_x
         self.B[8, 0] = 0.1  # efecto de T_norte en velocidad d1
     
-        # Supongamos que T_sur afecta inclinación y y desplazamiento d2
+        # Supongamos que T_sur afecta inclinación y desplazamiento d2
         self.B[6, 1] = 0.1  # efecto de T_sur en velocidad theta_y
         self.B[10,1] = 0.1   # efecto de T_sur en velocidad d2
         
