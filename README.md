@@ -11,6 +11,14 @@ Note on Data: This repository does not include the sensor datasets used in this 
 
 ---
 
+## References
+
+This work is primarily based on the anomaly detection methodology proposed in:
+
+> Lei Wang et al., "Online diagnosis for bridge monitoring data via a machine learning-based anomaly detection method," *Engineering Structures*, vol. 284, 2023, p. 115894. https://doi.org/10.1016/j.engstruct.2023.115894
+
+The Kalman filter implementation additionally draws on the structural health monitoring framework described in Erazo et al. (2019).
+
 ### Module: Sensor Signal Correction (Ensemble Learning)
 
 **File Name**: `Two_Layer_Ensemble.py`
