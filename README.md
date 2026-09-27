@@ -50,7 +50,7 @@ This work is primarily based on the anomaly detection methodology proposed in:
 - `compute_layer_mse()` — Computes per-layer, per-timestep reconstruction error.
 - `calculate_gpd_threshold()` — Derives an extreme-value (Generalized Pareto Distribution) anomaly threshold from reconstruction errors.
 
-**Dependencies**: `torch`, `torch.nn`/`torch.optim`, `scipy.fft`, `scipy.stats` (genpareto), `numpy`, `matplotlib`, `scikit-learn` (StandardScaler). No internal file imports — this is the base model consumed by `Model_Validation.py`.
+**Dependencies**: `torch`, `torch.nn`/`torch.optim`, `scipy.fft`, `scipy.stats` (genpareto), `numpy`, `matplotlib`, `scikit-learn` (StandardScaler).
 
 ---
 
