@@ -147,7 +147,7 @@ class BasicInceptionBlock2D(nn.Module):
             nn.MaxPool2d(kernel_size=3, stride=1, padding=1),
             nn.Conv2d(in_channels, out_channels//4, kernel_size=1)
         )
-        self.relu = nn.ReLU() #aplciar relu a los output de cada branch individualmente
+        self.relu = nn.ReLU() #aplicar relu a los output de cada branch individualmente
 
     def forward(self, x):
         return self.relu(
