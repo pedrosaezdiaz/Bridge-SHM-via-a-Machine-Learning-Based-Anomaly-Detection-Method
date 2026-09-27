@@ -1,20 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 29 09:17:23 2025
-
-@author: psd6587
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul  8 13:28:18 2025
-Updated to include backpropagation, training loop, and MSE computation for each TimesBlock layer.
-Fixed gradient tracking issues.
-
-@author: psd6587
-"""
 import numpy as np
 from scipy.fft import fft, fftfreq
 import torch
