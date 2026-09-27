@@ -7,7 +7,7 @@ This GitHub repository should be reviewed in conjunction with the project report
 
 This project implements a **structural health monitoring (SHM) pipeline** for bridge pot bearings, combining Kalman filtering, deep learning-based anomaly detection (TimesBlock), and a two-layer ensemble regression system for sensor signal correction. Files are grouped by module below. 
 
-Note on Data: This repository does not include the sensor datasets used in this project due to confidentiality/privacy restrictions. File paths in the scripts are placeholders and should be updated to point to your own dataset with a matching schema (see column names referenced in each script).
+Note on Data: This repository does not include the sensor datasets used in this project due to confidentiality/privacy restrictions.
 
 ## References
 
