@@ -1,5 +1,7 @@
 # Bridge-SHM-via-a-Machine-Learning-Based-Anomaly-Detection-Method
-This repository documents my participation in the structural instrumentation and monitoring project of the Arroyo de las Huertas de Mateo viaduct, located in Minglanilla (Cuenca, Spain), carried out during my internship period in the R&amp;D department at CEMOSA [📄 View Internship Report](<Internship Report SHM - Pedro Sáez.pdf>).
+This repository documents my participation in the structural instrumentation and monitoring project for the Arroyo de las Huertas de Mateo viaduct, located in Minglanilla (Cuenca, Spain), carried out during my internship in the R&D department at CEMOSA. 
+
+This GitHub repository should be reviewed in conjunction with the project report for full context: [📄 View Internship Report](<Internship Report SHM - Pedro Sáez.pdf>).
 
 ## File Directory and Description
 
