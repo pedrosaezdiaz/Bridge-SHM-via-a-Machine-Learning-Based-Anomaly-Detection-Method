@@ -5,7 +5,7 @@ This repository documents my participation in the structural instrumentation and
 
 This project implements a **structural health monitoring (SHM) pipeline** for bridge pot bearings, combining classical state estimation (Kalman filtering), deep learning-based anomaly detection (TimesNet-style blocks), and a two-layer ensemble regression system for sensor signal correction. Files are grouped by module below. 
 
-Note on Data: The sensor datasets used in this project (bridge inclination, displacement, and temperature readings) are proprietary monitoring data and are not included in this repository due to confidentiality/privacy restrictions. File paths in the scripts are placeholders and should be updated to point to your own dataset with a matching schema (see column names referenced in each script).
+Note on Data: This repository does not include the sensor datasets used in this project due to confidentiality/privacy restrictions. File paths in the scripts are placeholders and should be updated to point to your own dataset with a matching schema (see column names referenced in each script).
 
 ---
 
